@@ -1,5 +1,5 @@
 # Downbeat
-Real-time drum transcription machine: turning a live drum-kit session into sheet music for 
+Real-time drum transcription machine: transforming a live drum-kit session into sheet music for playback.
 
 
 ## Classification 
