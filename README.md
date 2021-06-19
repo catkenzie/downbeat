@@ -6,8 +6,8 @@ This collaborative project fullfilled capstone credit for the University of Mich
 
 Drum classification is implemented in C on the STM32 Nucleo microprocessor and the transcription is implemented in Python on the RPi4.
 
-Authors
-Cat Kenzie, 
+### Authors
+Damon Anderson, Michael Halloran, Cat Kenzie, Prakash Kumar, Bryan Rabotnick
 
 ## Classification 
 
@@ -15,8 +15,3 @@ Cat Kenzie,
 
 ## Transcription
 
-
-
-### Authors
-
-Cat Kenzie, 
