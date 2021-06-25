@@ -1,5 +1,5 @@
 # Downbeat
-Real-time drum transcription: machine transforming a live drum-kit session into sheet music. The input is recorded with a singular microphone which supports most basic setups that artists have at their disposal. 
+Real-time drum transcription: machine transforming a live drum-kit session into sheet music. The BPM is set by the drummer and the beat is recorded with a singular microphone which supports most basic setups that artists have at their disposal. 
 
 ## About the Project 
 This collaborative project fullfilled capstone credit for the University of Michigan School of Engineering. 
@@ -16,3 +16,4 @@ Isolated training samples of each drum piece are processed before runtime to min
 
 ## Transcription
 
+Pre-runtime the transcription algorithm takes the set BPM, determines all possible beat patterns, and weights the likelihood of each pattern. During runtime, each time a hit is detected, the hit spacing is calculated, rounding is accounted for and the beat pattern is created. 
