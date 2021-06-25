@@ -18,4 +18,4 @@ Isolated training samples of each drum piece are processed before runtime to min
 
 Pre-runtime the transcription algorithm takes the set BPM, determines all possible beat patterns, and weighs the likelihood of each pattern. During runtime everytime time a hit is detected, the hit spacing is calculated, rounding is accounted for and the beat pattern is created. 
 
-The GUI is implemented in C using the Simple Directmedia Layer and Guido Music Notation library to render the musical notation determinged by the transcription algorithm.
+The GUI is implemented in C using the Simple Directmedia Layer and Guido Music Notation library to render the musical notation as a PNG to display. 
